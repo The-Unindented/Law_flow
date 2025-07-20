@@ -5,9 +5,8 @@ build/
 dist/
 wheels/
 *.egg-info
-my_agent_data.db
-.env
-hello
 
 # Virtual environments
 .venv
+.env
+my_agent_data.db

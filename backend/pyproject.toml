@@ -1,0 +1,21 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.116.1",
+    "google-adk>=1.7.0",
+    "uvicorn>=0.35.0",
+    "sqlalchemy>=2.0.0",
+    "passlib[bcrypt]>=1.7.4",
+    "python-jose[cryptography]>=3.3.0",
+    "python-multipart>=0.0.9",
+    "pydantic[email]>=2.6.0",
+    "langchain>=0.3.26",
+    "langchain-community>=0.3.27",
+    "chromadb>=1.0.15",
+    "pypdf>=5.8.0",
+    "sentence-transformers>=5.0.0",
+]
